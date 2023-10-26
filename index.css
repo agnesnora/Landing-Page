@@ -32,9 +32,10 @@ form {
   padding: 2.5em;
 }
 label {
+  display: block;
   font-size: 1.2rem;
   font-weight: 500;
-  margin-bottom: 1em;
+  margin-bottom: 0.3em;
 }
 
 input {
@@ -42,7 +43,6 @@ input {
   background-color: #c7c7c7;
   line-height: 4rem;
   width: 100%;
-  margin-top: 1em;
 }
 .hero {
   width: 80%;
