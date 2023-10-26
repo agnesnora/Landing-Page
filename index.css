@@ -1,0 +1,124 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: url("bg.jpg") #5200ff;
+  background-blend-mode: overlay;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  width: 100vw;
+  height: 60%;
+
+  /* width: 100vw;
+  height: 50%; */
+}
+main {
+  background-color: #fff;
+  /* display: grid;
+  align-items: center; */
+  text-align: center;
+}
+
+form {
+  text-align: left;
+  padding: 2.5em;
+}
+label {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+input {
+  border: none;
+  background-color: #c7c7c7;
+  line-height: 4rem;
+  width: 100%;
+  margin-top: 1em;
+}
+.hero {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  display: block;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  padding-top: 1.6em;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 3.4em;
+  line-height: 1.5em;
+}
+
+button {
+  background-color: #5200ff;
+  color: #fff;
+  line-height: 27px;
+  padding: 1.2em;
+  border: none;
+  width: 100%;
+  margin: 1em auto;
+}
+
+@media only screen and (min-width: 500px) {
+  .input-wrapper {
+    display: flex;
+    justify-content: left;
+  }
+  form {
+    width: 90%;
+  }
+  input {
+    width: 90%;
+    margin-right: 4em;
+  }
+  button {
+    width: 25%;
+    margin-top: 3.5em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+  .input-wrapper {
+    display: block;
+    margin-top: 5em;
+  }
+  .hero {
+    width: 60%;
+    display: grid;
+    justify-self: right;
+    margin-right: 3em;
+  }
+  p,
+  h1 {
+    text-align: right;
+  }
+  header {
+    width: 50vw;
+    height: 100vh;
+  }
+  button {
+    width: 200px;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
